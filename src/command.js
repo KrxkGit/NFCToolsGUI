@@ -107,7 +107,7 @@ const actions = {
 
             readICThenExec(
                 i18n("log_msg_start_write_card"), i18n("indicator_writing_ic_card"), true,
-                "nfc-mfclassic", ["w", "A", "u", mfdFilePath, tempMFDFilePath, "f"]
+                "nfc-mfclassic", ["W", "A", "u", mfdFilePath, tempMFDFilePath, "f"]
             )
         })
     },
